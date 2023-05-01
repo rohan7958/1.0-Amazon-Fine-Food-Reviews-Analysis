@@ -29,6 +29,45 @@ https://www.kaggle.com/snap/amazon-fine-food-reviews
 - Summary - brief summary of the review
 - Text - text of the review
 
+
+🔍 Real world problem: Predict rating given product reviews on Amazon.
+
+📊 Steps:
+
+1️⃣ Dataset overview: Take a look at the Amazon Fine Food reviews dataset with EDA. 📈
+
+2️⃣ Data Cleaning: Remove duplicates from the dataset. 🧹
+
+3️⃣ Why convert text to a vector? To perform machine learning algorithms, text data needs to be converted to a numerical form. 🔢
+
+4️⃣ Bag of Words (BoW): A common method to convert text to a vector is BoW. 🛍️
+
+5️⃣ Text Preprocessing: Text needs to be preprocessed before applying BoW. Steps include stemming, stop-word removal, tokenization, and lemmatization. 📝
+
+6️⃣ uni-gram, bi-gram, n-grams: N-grams are used to capture the context of words in the text. 🔠
+
+7️⃣ tf-idf (term frequency-inverse document frequency): Another method to convert text to a vector is tf-idf, which captures the importance of a word in a document. 📈🔠
+
+8️⃣ Why use the log in IDF? The log is used to reduce the effect of very high frequency words. 📉
+
+9️⃣ Word2Vec: Word2Vec is a neural network-based approach to convert words to vectors. 🧠
+
+🔟 Avg-Word2Vec, tf-idf weighted Word2Vec: Two variants of Word2Vec are avg-Word2Vec and tf-idf weighted Word2Vec. 🧮
+
+1️⃣1️⃣ Bag of Words(code sample) 💻
+
+1️⃣2️⃣ Text Preprocessing(code sample) 💻
+
+1️⃣3️⃣ Bi-Grams and n-grams(code sample) 💻
+
+1️⃣4️⃣ TF-IDF(code sample) 💻
+
+1️⃣5️⃣ Word2Vec(code sample) 💻
+
+1️⃣6️⃣ Avg-Word2Vec and TFIDF-Word2Vec(Code Sample) 💻
+
+Thank you for checking out this project! 🙏
+
 Note:
 This Case-study/Project was covered in the Applied AI course.
 
