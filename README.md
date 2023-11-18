@@ -1,4 +1,4 @@
-# 📈 Amazon Fine Food Reviews Analysis 🍽️
+# 📈 Predict rating given product reviews on Amazon 
 
 This project analyzes the Amazon Fine Food Reviews dataset, which consists of reviews of fine foods from Amazon. 
 With 568,454 reviews from 256,059 users on 74,258 products, this dataset covers a timespan of 13 years, from Oct 1999 to Oct 2012.
